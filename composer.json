@@ -2,7 +2,7 @@
     "name": "seryiza/brain-games",
     "description": "CLI games to improve your brain :)",
     "type": "project",
-    "version": "0.4.0",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-progression",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "autoload": {
         "files": [
@@ -22,7 +23,8 @@
             "src/game.php",
             "src/games/even.php",
             "src/games/progression.php",
-            "src/games/calc.php"
+            "src/games/calc.php",
+            "src/games/gcd.php"
         ]
     },
     "scripts": {

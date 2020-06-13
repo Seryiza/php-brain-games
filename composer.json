@@ -8,6 +8,9 @@
             "email": "public@seryiza.xyz"
         }
     ],
+    "bin": [
+        "bin/brain-games.php"
+    ],
     "autoload": {
         "files": [
             "src/greetings.php"

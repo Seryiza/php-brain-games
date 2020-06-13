@@ -14,12 +14,24 @@ function playGame(string $gameRules, callable $game): void
 
     line($gameRules);
     for ($i = 0; $i < GAMES_COUNT_TO_WIN; $i++) {
-        $didWin = $game();
-        if (!$didWin) {
-            line("Let's try again, {$playerName}!");
-            exit(0);
+        [$questionText, $correctAnswer] = $game();
+
+        line("Question: {$questionText}");
+        $enteredAnswer = prompt('Your answer');
+
+        $isCorrect = $enteredAnswer === $correctAnswer;
+        if ($isCorrect) {
+            line('Correct!' . PHP_EOL);
+        } else {
+            line("'{$enteredAnswer}' is wrong answer :( Correct answer was '{$correctAnswer}'.");
+            break;
         }
     }
 
-    line("Congratulations, {$playerName}!");
+    $didWin = $i === GAMES_COUNT_TO_WIN;
+    if ($didWin) {
+        line("Congratulations, {$playerName}!");
+    } else {
+        line("Let's try again, {$playerName}!");
+    }
 }

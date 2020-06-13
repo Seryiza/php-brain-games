@@ -13,7 +13,4 @@ if (file_exists($vendorAutoloadPath)) {
     require_once $developmentAutoloadPath;
 }
 
-playGame(
-    'Answer "yes" if number even otherwise answer "no".',
-    getEvenGame(),
-);
+playGame(...getEvenGame());

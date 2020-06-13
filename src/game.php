@@ -9,7 +9,7 @@ const GAMES_COUNT_TO_WIN = 3;
 
 function playGame(string $gameRules, callable $game): void
 {
-    printGreetings();
+    line('Welcome to the Brain Games!');
     $playerName = prompt('May I have your name');
 
     line($gameRules);

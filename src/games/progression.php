@@ -9,7 +9,7 @@ function getNumberSequence(int $startNumber, int $difference, int $sequenceSize)
 {
     $numbers = [];
     for ($i = 0; $i < $sequenceSize; $i++) {
-        $numbers[$i] = $startNumber + $i * $difference;
+        $numbers[] = $startNumber + $i * $difference;
     }
     return $numbers;
 }

@@ -20,5 +20,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2.2.0
     
+    - name: Setup the project
+      run: make setup
+    
     - name: Run CodeSniffer
       run: make lint

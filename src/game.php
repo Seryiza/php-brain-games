@@ -15,7 +15,6 @@ function playGame(string $gameRules, callable $game): void
     line($gameRules);
     for ($i = 0; $i < GAMES_COUNT_TO_WIN; $i++) {
         [$questionText, $correctAnswer] = $game();
-
         line("Question: {$questionText}");
         $enteredAnswer = prompt('Your answer');
 

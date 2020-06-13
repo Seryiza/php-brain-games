@@ -5,7 +5,8 @@ namespace Seryiza\BrainGames\Games;
 use function cli\line;
 use function cli\prompt;
 
-function isEven(int $number) {
+function isEven(int $number)
+{
     return $number % 2 === 0;
 }
 

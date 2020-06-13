@@ -2,7 +2,7 @@
     "name": "seryiza/brain-games",
     "description": "CLI games to improve your brain :)",
     "type": "project",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,13 @@
             "src/greetings.php"
         ]
     },
+    "scripts": {
+        "phpcs": "phpcs"
+    },
     "require": {
         "wp-cli/php-cli-tools": "^0.11.11"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
     }
 }

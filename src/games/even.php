@@ -1,8 +1,8 @@
 <?php
 
-namespace Seryiza\BrainGames\Games;
+namespace Seryiza\BrainGames\Games\EvenGame;
 
-const EVEN_GAME_RULES = 'Answer "yes" if number even otherwise answer "no".';
+const RULES = 'Answer "yes" if number even otherwise answer "no".';
 
 function isEven(int $number)
 {
@@ -17,5 +17,5 @@ function getEvenGame(): array
         return [$number, $answer];
     };
 
-    return [EVEN_GAME_RULES, $game];
+    return [RULES, $game];
 }

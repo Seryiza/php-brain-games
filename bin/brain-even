@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use function Seryiza\BrainGames\Games\getEvenGame;
+use function Seryiza\BrainGames\Games\EvenGame\getEvenGame;
 use function Seryiza\BrainGames\playGame;
 
 $vendorAutoloadPath = __DIR__ . '/../../../autoload.php';

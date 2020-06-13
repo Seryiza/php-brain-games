@@ -6,3 +6,6 @@ setup:
 
 lint:
 	composer run -- phpcs --standard=PSR12 src bin
+
+analyze:
+	composer run -- phpstan analyse --level 5 src bin

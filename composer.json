@@ -11,7 +11,7 @@
         }
     ],
     "bin": [
-        "bin/brain-games.php"
+        "bin/brain-games"
     ],
     "autoload": {
         "files": [

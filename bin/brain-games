@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$vendorAutoloadPath = __DIR__ . '/../autoload.php';
+$vendorAutoloadPath = __DIR__ . '/../../../autoload.php';
 $developmentAutoloadPath = __DIR__ . '/../vendor/autoload.php';
 
 if (file_exists($vendorAutoloadPath)) {

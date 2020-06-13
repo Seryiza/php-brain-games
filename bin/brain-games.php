@@ -1,5 +1,12 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+$vendorAutoloadPath = __DIR__ . '/../autoload.php';
+$developmentAutoloadPath = __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists($vendorAutoloadPath)) {
+    require_once $vendorAutoloadPath;
+} else {
+    require_once $developmentAutoloadPath;
+}
 
 Seryiza\BrainGames\printGreetings();

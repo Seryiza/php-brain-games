@@ -1,0 +1,19 @@
+{
+    "name": "seryiza/brain-games",
+    "description": "CLI games to improve your brain :)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergey Zaborovsky",
+            "email": "public@seryiza.xyz"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/greetings.php"
+        ]
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    }
+}

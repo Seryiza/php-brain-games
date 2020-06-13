@@ -19,4 +19,5 @@ export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
 
 ## Игровой процесс
+[![asciicast](https://asciinema.org/a/krjW2lvHCxSKzcCGVk1sta071.svg)](https://asciinema.org/a/krjW2lvHCxSKzcCGVk1sta071)
 [![asciicast](https://asciinema.org/a/oXSliRtJdM7yxgdcq6vIwWGMT.svg)](https://asciinema.org/a/oXSliRtJdM7yxgdcq6vIwWGMT)

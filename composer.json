@@ -2,7 +2,7 @@
     "name": "seryiza/brain-games",
     "description": "CLI games to improve your brain :)",
     "type": "project",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {

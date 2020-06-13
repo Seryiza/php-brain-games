@@ -1,6 +1,6 @@
 # PHP Brain Games
 
-![CI](https://github.com/Seryiza/php-brain-games/workflows/CI/badge.svg?branch=master) ![Packagist Version](https://img.shields.io/packagist/v/seryiza/brain-games) ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/Seryiza/php-brain-games)
+![CI](https://github.com/Seryiza/php-brain-games/workflows/CI/badge.svg?branch=master) [![Packagist Version](https://img.shields.io/packagist/v/seryiza/brain-games)](https://packagist.org/packages/seryiza/brain-games) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/Seryiza/php-brain-games)](https://codeclimate.com/github/Seryiza/php-brain-games)
 
 > «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена.
 

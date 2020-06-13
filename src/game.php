@@ -19,7 +19,7 @@ function playGame(string $gameRules, callable $game): void
         line("Question: {$questionText}");
         $enteredAnswer = prompt('Your answer');
 
-        $isCorrect = $enteredAnswer === $correctAnswer;
+        $isCorrect = $enteredAnswer === (string) $correctAnswer;
         if ($isCorrect) {
             line('Correct!' . PHP_EOL);
         } else {

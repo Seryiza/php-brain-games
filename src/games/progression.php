@@ -30,10 +30,8 @@ function getProgressionGame(): array
         $hidedNumberIndex = rand(1, NUMBERS_IN_SEQUENCE - 2);
         $hidedNumber = $numberSequence[$hidedNumberIndex];
 
-        $answer = (string) $hidedNumber;
         $question = formatNumbersWithHidedOne($numberSequence, $hidedNumberIndex);
-
-        return [$question, $answer];
+        return [$question, $hidedNumber];
     };
 
     return [RULES, $game];

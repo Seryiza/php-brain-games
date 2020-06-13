@@ -34,7 +34,7 @@ function getCalcGame(): array
         $operator = OPERATORS[array_rand(OPERATORS)];
 
         $question = formatExpression($operator, $leftOperand, $rightOperand);
-        $answer = (string) getExpressionResult($operator, $leftOperand, $rightOperand);
+        $answer = getExpressionResult($operator, $leftOperand, $rightOperand);
         return [$question, $answer];
     };
 

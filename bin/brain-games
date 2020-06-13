@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 $vendorAutoloadPath = __DIR__ . '/../autoload.php';

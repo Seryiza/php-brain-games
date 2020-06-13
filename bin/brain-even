@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+use function Seryiza\BrainGames\Games\getEvenGame;
+use function Seryiza\BrainGames\playGame;
+
+$vendorAutoloadPath = __DIR__ . '/../../../autoload.php';
+$developmentAutoloadPath = __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists($vendorAutoloadPath)) {
+    require_once $vendorAutoloadPath;
+} else {
+    require_once $developmentAutoloadPath;
+}
+
+playGame(
+    'Answer "yes" if number even otherwise answer "no".',
+    getEvenGame(),
+);
